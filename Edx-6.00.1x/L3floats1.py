@@ -12,7 +12,7 @@ result = ""
 if num == 0:
     result = "0"
     
-while num > 2:
+while num > 0:
     result = str(num%2) + result
     print result
     num = num/2
@@ -20,4 +20,4 @@ while num > 2:
 if isNeg:
     result = "-" + result    
     
-#given 19, result = "011". So a crap conversion atm.
+#given 19, result = "10011".
